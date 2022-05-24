@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProductListVC.swift
 //  SampleMVVM
 //
 //  Created by Abderrahman Ajid on 24/5/2022.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProductListVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .green
     }
-
 
 }
 

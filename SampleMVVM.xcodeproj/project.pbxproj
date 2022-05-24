@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		80CE86ED283CB22C005D0F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE86EC283CB22C005D0F56 /* AppDelegate.swift */; };
 		80CE86EF283CB22C005D0F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE86EE283CB22C005D0F56 /* SceneDelegate.swift */; };
-		80CE86F1283CB22C005D0F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE86F0283CB22C005D0F56 /* ViewController.swift */; };
+		80CE86F1283CB22C005D0F56 /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE86F0283CB22C005D0F56 /* ProductListVC.swift */; };
 		80CE86F6283CB22D005D0F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CE86F5283CB22D005D0F56 /* Assets.xcassets */; };
 		80CE86F9283CB22D005D0F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CE86F7283CB22D005D0F56 /* LaunchScreen.storyboard */; };
 		80CE8704283CB22D005D0F56 /* SampleMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE8703283CB22D005D0F56 /* SampleMVVMTests.swift */; };
@@ -38,7 +38,7 @@
 		80CE86E9283CB22C005D0F56 /* SampleMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE86EC283CB22C005D0F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80CE86EE283CB22C005D0F56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80CE86F0283CB22C005D0F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CE86F0283CB22C005D0F56 /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
 		80CE86F5283CB22D005D0F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CE86F8283CB22D005D0F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80CE86FA283CB22D005D0F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		80CE86EB283CB22C005D0F56 /* SampleMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				80CE86F0283CB22C005D0F56 /* ViewController.swift */,
+				80CE86F0283CB22C005D0F56 /* ProductListVC.swift */,
 				800439D7283CBFC900FF60D3 /* Resources */,
 			);
 			path = SampleMVVM;
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80CE86F1283CB22C005D0F56 /* ViewController.swift in Sources */,
+				80CE86F1283CB22C005D0F56 /* ProductListVC.swift in Sources */,
 				80CE86ED283CB22C005D0F56 /* AppDelegate.swift in Sources */,
 				80CE86EF283CB22C005D0F56 /* SceneDelegate.swift in Sources */,
 			);
