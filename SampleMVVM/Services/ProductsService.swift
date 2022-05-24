@@ -66,6 +66,7 @@ final class ProductsService: ProductsServiceProtocol {
         var urlRequest = URLRequest(url: url)
         urlRequest.timeoutInterval = 10.0
         urlRequest.httpMethod = "GET"
+        urlRequest.cachePolicy = .returnCacheDataElseLoad
         return urlRequest
     }
 }
