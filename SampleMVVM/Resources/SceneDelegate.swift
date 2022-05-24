@@ -18,10 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let windowScene = scene as? UIWindowScene else { return }
         
-        let productListVC = ProductListVC()
+        let service = ProductsService()
+        let viewModel = ProductListViewModel(productsService: service)
+        let productListVC = ProductListVC(viewModel)
         
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UINavigationController(rootViewController: productListVC)
+        window?.rootViewController = productListVC
         window?.makeKeyAndVisible()
     }
 
