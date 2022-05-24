@@ -35,7 +35,9 @@ final class ProductListVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .darkGray
+        
+        view.backgroundColor = .white
+        title = "Products"
         
         setUpTableView()
         configureDataSource()

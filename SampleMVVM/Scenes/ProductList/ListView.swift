@@ -25,11 +25,7 @@ final class ListView: UIView {
     
     private func addSubviews() {
         let subviews = [tableView, activityIndicationView]
-        
-        subviews.forEach {
-            addSubview($0)
-            $0.translatesAutoresizingMaskIntoConstraints = false
-        }
+        addSubviews(subviews)
     }
     
     func startLoading() {
@@ -62,8 +58,10 @@ final class ListView: UIView {
     }
     
     private func setUpViews() {
-        tableView.backgroundColor = .background
-        
+        tableView.separatorStyle = .none
+        tableView.allowsSelection = false
+        tableView.showsVerticalScrollIndicator = false
+        tableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
 }

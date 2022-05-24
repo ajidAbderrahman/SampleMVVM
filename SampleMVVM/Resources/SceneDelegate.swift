@@ -23,7 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let productListVC = ProductListVC(viewModel)
         
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = productListVC
+        window?.rootViewController = UINavigationController(
+            rootViewController: productListVC)
         window?.makeKeyAndVisible()
     }
 
