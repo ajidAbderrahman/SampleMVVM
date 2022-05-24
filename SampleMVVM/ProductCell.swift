@@ -70,6 +70,6 @@ final class ProductCellViewModel {
     
     private func setUpBindings() {
         name = product.productName
-        description = product.description
+        description = product.productDescription
     }
 }

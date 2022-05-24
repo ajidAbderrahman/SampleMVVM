@@ -46,7 +46,7 @@ extension ProductListViewModel {
         }
         
         let valueHandler: (Products) -> Void = { [weak self] products in
-            self?.products = products
+            self?.products = products.sorted { $0.isSpecialBrand && !$1.isSpecialBrand }
         }
         
         productsService

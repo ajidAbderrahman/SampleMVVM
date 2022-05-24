@@ -13,8 +13,8 @@ typealias Products = [Product]
 struct Product: Decodable, Hashable {
     
     let productID: Int
-    let productName, description: String
-    let price: Int
+    let productName, productDescription: String
+    let price: Double
     let imagesURL: ImagesURL
     let cBrand: CBrand
     let isProductSet, isSpecialBrand: Bool
@@ -22,11 +22,19 @@ struct Product: Decodable, Hashable {
     enum CodingKeys: String, CodingKey {
         case productID = "product_id"
         case productName = "product_name"
-        case description, price
+        case productDescription = "description"
+        case price
         case imagesURL = "images_url"
         case cBrand = "c_brand"
         case isProductSet = "is_productSet"
         case isSpecialBrand = "is_special_brand"
+    }
+}
+
+extension Product: CustomStringConvertible {
+    
+    var description: String {
+        productName
     }
 }
 
