@@ -91,6 +91,42 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		800439EB283CF96C00FF60D3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				800439E3283CD7C700FF60D3 /* ProductsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		800439EC283CF9B500FF60D3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				800439EE283CF9E300FF60D3 /* Reusable */,
+				800439ED283CF9D200FF60D3 /* ProductList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		800439ED283CF9D200FF60D3 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				80CE86F0283CB22C005D0F56 /* ProductListVC.swift */,
+				800439DB283CD6C600FF60D3 /* ProductListViewModel.swift */,
+				800439DD283CD6F900FF60D3 /* ListView.swift */,
+				800439E1283CD78900FF60D3 /* ProductCell.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		800439EE283CF9E300FF60D3 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				800439DF283CD75300FF60D3 /* ActivityIndicatorView.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		80CE86E0283CB22C005D0F56 = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				800439E5283CDA4B00FF60D3 /* Extensions.swift */,
-				80CE86F0283CB22C005D0F56 /* ProductListVC.swift */,
-				800439DB283CD6C600FF60D3 /* ProductListViewModel.swift */,
-				800439DF283CD75300FF60D3 /* ActivityIndicatorView.swift */,
-				800439DD283CD6F900FF60D3 /* ListView.swift */,
-				800439E1283CD78900FF60D3 /* ProductCell.swift */,
-				800439E3283CD7C700FF60D3 /* ProductsService.swift */,
+				800439EC283CF9B500FF60D3 /* Scenes */,
+				800439EB283CF96C00FF60D3 /* Services */,
 				800439D8283CC12800FF60D3 /* Models */,
 				800439D7283CBFC900FF60D3 /* Resources */,
 			);
